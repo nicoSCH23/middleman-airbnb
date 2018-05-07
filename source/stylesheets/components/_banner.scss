@@ -21,3 +21,12 @@
   }
 }
 
+.header-image {
+  left:0;
+  position:absolute;
+  top:0;
+  z-index:-1;
+  height:auto;
+  -webkit-animation:zoomEffect 45s infinite;animation:zoomEffect 45s infinite;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-direction:alternate;animation-direction:alternate;-webkit-backface-visibility:hidden;backface-visibility:hidden}@-webkit-keyframes zoomEffect{0%{-webkit-transform:scale(1) translateX(0);transform:scale(1) translateX(0)}100%{-webkit-transform:scale(1.2) translateX(-120px) translateY(-40px);transform:scale(1.2) translateX(-120px) translateY(-40px)}}@keyframes zoomEffect{0%{-webkit-transform:scale(1) translateX(0) translateY(0);transform:scale(1) translateX(0) translateY(0)}100%{-webkit-transform:scale(1.2) translateX(-120px) translateY(-40px);transform:scale(1.2) translateX(-120px) translateY(-40px)}
+
+  }
